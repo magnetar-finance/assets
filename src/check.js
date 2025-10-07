@@ -43,6 +43,11 @@ function recursivePathTraversal(pth = __dirname, previousPaths = []) {
   return pathsToTraverse;
 }
 
+function throwError(error) {
+  console.error(error);
+  process.exit(1);
+}
+
 function checkERC20() {
   const traversalResult = recursivePathTraversal();
   // Check for erc20 folder & index.json files
@@ -52,33 +57,32 @@ function checkERC20() {
       result.includes('index.json'),
   );
 
-  if (!isValidFS) return [false, new Error('Invalid folder structure')];
+  if (!isValidFS) throwError(new Error('Invalid folder structure'));
   else {
     // Find ERC20 file path
-    const erc20FilePath = traversalResult.find(
-      (result) =>
-        result.toLowerCase().includes(erc20DirectoryName) &&
-        result.includes('index.json'),
-    );
-    if (!erc20FilePath) return [false, new Error('Invalid ERC20 file path')];
-    // Read file
-    const fileContent = fs.readFileSync(erc20FilePath);
-    // Stringify and parse
-    const erc20InfoObject = JSON.parse(fileContent.toString());
-    console.info('Now running schema check for: %s', erc20FilePath);
-    // Run schema check
-    const { success, error } = ERC20Schema.safeParse(erc20InfoObject);
-    return [success, error];
+
+    traversalResult
+      .filter(
+        (result) =>
+          result.toLowerCase().includes(erc20DirectoryName) &&
+          result.includes('index.json'),
+      )
+      .forEach((erc20FilePath) => {
+        // Read files
+        const fileContent = fs.readFileSync(erc20FilePath);
+        // Stringify and parse
+        const erc20InfoObject = JSON.parse(fileContent.toString());
+        console.info('Now running schema check for: %s', erc20FilePath);
+        // Run schema check
+        const { success, error } = ERC20Schema.safeParse(erc20InfoObject);
+
+        if (!success) throwError(error);
+      });
   }
 }
 
 function runCheck() {
-  const erc20Check = checkERC20();
-
-  if (!erc20Check[0]) {
-    console.error(erc20Check[1]);
-    process.exit(1);
-  }
+  checkERC20();
 }
 
 runCheck();
