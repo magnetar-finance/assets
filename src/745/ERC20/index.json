@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Dusk",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "symbol": "DUSK",
+    "decimals": 18,
+    "logoURI": "https://avatars.githubusercontent.com/u/40235653?s=200&v=4",
+    "chainId": 745
+  },
+  {
+    "name": "USD Coin",
+    "address": "0x9059AD5162A27238B9c65f72B4Dc938B54ff873A",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public",
+    "chainId": 745
+  },
+  {
+    "name": "State Street USD Liquidity LVNAV Fund",
+    "address": "0x66aCa281eB98ef05bc31e66CC353A9D7d11Ae2E7",
+    "symbol": "SSULF",
+    "decimals": 7,
+    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public",
+    "chainId": 745
+  },
+  {
+    "name": "Pieswap",
+    "address": "0x6cFabd149eBB0b10f13d89590F72c8503C548E62",
+    "symbol": "PIE",
+    "decimals": 18,
+    "logoURI": "https://pieswap.app/pieswaptoken.webp",
+    "chainId": 745
+  },
+  {
+    "name": "Wrapped Dusk",
+    "address": "0x5695487B33A02B7f811D001D64a1581c474f6c14",
+    "symbol": "wDusk",
+    "decimals": 18,
+    "logoURI": "https://pieswap.app/wdusk.svg",
+    "chainId": 745
+  },
+  {
+    "name": "Magnetar Finance",
+    "address": "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
+    "symbol": "MGN",
+    "decimals": 18,
+    "chainId": 5124,
+    "logoURI": "https://avatars.githubusercontent.com/u/252741734?s=200&v=4"
+  }
+]
