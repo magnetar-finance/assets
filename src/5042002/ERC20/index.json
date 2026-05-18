@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ARC USD Coin",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "symbol": "USDC",
+    "decimals": 18,
+    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public",
+    "chainId": 5042002
+  },
+  {
+    "name": "USD Coin",
+    "address": "0x3600000000000000000000000000000000000000",
+    "symbol": "USDC",
+    "decimals": 6,
+    "chainId": 5042002,
+    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
+  },
+  {
+    "name": "Tether USD",
+    "address": "0x175CdB1D338945f0D851A741ccF787D343E57952",
+    "symbol": "USDT",
+    "decimals": 18,
+    "chainId": 5042002,
+    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public"
+  },
+  {
+    "name": "Wrapped USDC",
+    "address": "0x911b4000D3422F482F4062a913885f7b035382Df",
+    "symbol": "wUSDC",
+    "decimals": 18,
+    "chainId": 5042002,
+    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
+  },
+  {
+    "name": "Euro Coin",
+    "address": "0x89B50855Aa3bE2F677cD6303Cec089B5F319D72a",
+    "symbol": "EURC",
+    "decimals": 18,
+    "chainId": 5042002,
+    "logoURI": "https://assets.coingecko.com/coins/images/26045/standard/euro.png?1696525125"
+  },
+  {
+    "name": "Magnetar Finance",
+    "address": "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
+    "symbol": "MGN",
+    "decimals": 18,
+    "chainId": 5042002,
+    "logoURI": "https://avatars.githubusercontent.com/u/252741734?s=200&v=4"
+  }
+]
