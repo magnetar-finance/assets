@@ -46,5 +46,13 @@
     "decimals": 18,
     "chainId": 5042002,
     "logoURI": "https://avatars.githubusercontent.com/u/252741734?s=200&v=4"
+  },
+  {
+    "name": "Circle Wrapped Bitcoin",
+    "address": "0xf0C4a4CE82A5746AbAAd9425360Ab04fbBA432BF",
+    "symbol": "cirBTC",
+    "decimals": 8,
+    "chainId": 5042002,
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/39829.png"
   }
 ]
