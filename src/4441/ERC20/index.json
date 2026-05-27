@@ -36,13 +36,15 @@
     "address": "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
     "symbol": "MGN",
     "decimals": 18,
-    "logoURI": "https://avatars.githubusercontent.com/u/252741734?s=200&v=4"
+    "logoURI": "https://avatars.githubusercontent.com/u/252741734?s=200&v=4",
+    "chainId": 4441
   },
   {
     "name": "Drunken USD",
     "address": "0x34ab15af99a4ef83e4dfe0799575d57ab60e5bcd",
-    "symbol": "MGN",
+    "symbol": "dUSD",
     "decimals": 18,
-    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
+    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public",
+    "chainId": 4441
   }
 ]
