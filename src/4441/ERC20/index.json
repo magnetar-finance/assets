@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Litecoin",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "symbol": "zkLTC",
+    "decimals": 18,
+    "logoURI": "https://lh3.googleusercontent.com/d/1or6NVscUZOaGU5b9Kyg71TsDQgoRu1hf=s220?authuser=0",
+    "chainId": 4441
+  },
+  {
+    "name": "Forge USD",
+    "address": "0x139d3ebda42572f2bbee2c78dec54dc14996de15",
+    "symbol": "fUSD",
+    "decimals": 18,
+    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public",
+    "chainId": 4441
+  },
+  {
+    "name": "USD Coin",
+    "address": "0xfc43abe529cdc61b7f0aa2e677451afd83d2b304",
+    "symbol": "USDC",
+    "decimals": 18,
+    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public",
+    "chainId": 4441
+  },
+  {
+    "name": "Wrapped Litecoin",
+    "address": "0xeb29947d9c1cd59af2b413b47505bf89a47be0d4",
+    "symbol": "wLTC",
+    "decimals": 18,
+    "logoURI": "https://lh3.googleusercontent.com/d/1or6NVscUZOaGU5b9Kyg71TsDQgoRu1hf=s220?authuser=0",
+    "chainId": 4441
+  },
+  {
+    "name": "Magnetar Finance",
+    "address": "0x64FAF984Bf60dE19e24238521814cA98574E3b00",
+    "symbol": "MGN",
+    "decimals": 18,
+    "logoURI": "https://avatars.githubusercontent.com/u/252741734?s=200&v=4"
+  },
+  {
+    "name": "Drunken USD",
+    "address": "0x34ab15af99a4ef83e4dfe0799575d57ab60e5bcd",
+    "symbol": "MGN",
+    "decimals": 18,
+    "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
+  }
+]
