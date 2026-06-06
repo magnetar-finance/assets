@@ -70,5 +70,13 @@
     "decimals": 18,
     "logoURI": "https://app.multyra.xyz/wolfdex.jpg",
     "chainId": 4441
+  },
+  {
+    "name": "Wrapped Ether",
+    "address": "0x4Fd3765cde8D1d2BE4EdbaA03940AfC56794c304",
+    "symbol": "WETH",
+    "decimals": 18,
+    "logoURI": "https://app.multyra.xyz/eth.png",
+    "chainId": 4441
   }
 ]
