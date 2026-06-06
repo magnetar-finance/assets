@@ -62,5 +62,13 @@
     "decimals": 18,
     "logoURI": "https://app.multyra.xyz/eth.png",
     "chainId": 4441
+  },
+  {
+    "name": "Wolfdex",
+    "address": "0xEa71393074fFCB6d132B8a2b6028CAF952af03A5",
+    "symbol": "WDEX",
+    "decimals": 18,
+    "logoURI": "https://app.multyra.xyz/wolfdex.jpg",
+    "chainId": 4441
   }
 ]
