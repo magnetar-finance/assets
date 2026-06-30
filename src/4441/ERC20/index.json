@@ -78,5 +78,13 @@
     "decimals": 18,
     "logoURI": "https://app.multyra.xyz/eth.png",
     "chainId": 4441
+  },
+  {
+    "name": "Nothing USD",
+    "address": "0x6ffB02fa705A0DB3c8EbB31A63EdFE62c103363D",
+    "symbol": "NUSD",
+    "decimals": 18,
+    "logoURI": "https://www.logo.wine/a/logo/Ethereum/Ethereum-Icon-Purple-Logo.wine.svg",
+    "chainId": 4441
   }
 ]
